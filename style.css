@@ -55,3 +55,19 @@ padding: auto;
 .box2 nav .icons ul li{
     display: inline;
     }
+.paragrah{
+    display: flex;
+    margin: 30px;
+}
+.p1{
+     color: rgb(17 24 39);
+        text-align: justify;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+       
+}
+.p1 a{
+    color: rgb(0, 60, 255);
+        text-decoration: none;
+}
+   
