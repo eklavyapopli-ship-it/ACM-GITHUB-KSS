@@ -1,36 +1,50 @@
-*{
-    /* background-color: white; */
-    color: white;
-    
-}
+
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, rgb(64,143,209));
+    background:url("");
     /* background-color: rgb(64,143,209); */
 }
 header{
-    background-color: rgb(17 24 39);
-    position: sticky;
+    display: flex;
+    justify-content: center;
 }
 
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    border: 2px;
+    border-radius: 20px;
+    top: 30px;
+   background: rgba(255, 255, 255,0.2);
+border-radius: 40px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
     /* background-color: black; */
 }
-.bigbox{
-    margin-top: 20px;
 
+.bigbox{
+    /* margin-top: 20px; */
+gap: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+/* border: 2px solid aqua; */
 }
 .box1 img{
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     margin-top: auto;
+
 }
 .box2 nav{
     display: flex;
-   align-items: center;
+   
    justify-content: center;
 }
 .icons{
@@ -44,6 +58,7 @@ padding: auto;
     
     text-decoration: none;
     margin: 10px;
+    color: white;
 }
 .box2 nav .links ul li a:hover{
     color: rgb(64,141,209);
@@ -52,22 +67,29 @@ padding: auto;
     
 }
 
-.box2 nav .icons ul li{
+.box3  .icons  li{
     display: inline;
+    
+    }
+.box3  .icons  li a{
+    text-decoration: none;
+    
     }
 .paragrah{
     display: flex;
     margin: 30px;
 }
 .p1{
-     color: rgb(17 24 39);
+     color: rgb(255, 255, 255);
         text-align: justify;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
+        font-weight: 100;
+        padding: 10%;
        
 }
 .p1 a{
-    color: rgb(0, 60, 255);
+    color: rgb(140, 165, 246);
         text-decoration: none;
 }
-   
+/* From https://css.glass */
