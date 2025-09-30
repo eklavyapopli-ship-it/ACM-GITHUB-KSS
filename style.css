@@ -62,7 +62,7 @@ padding: auto;
     color: white;
 }
 .box2 nav .links ul li a:hover{
-    color: rgb(64,141,209);
+    color: rgb(0, 255, 255,0.8);
     text-decoration: none;
     margin: 10px;
     
@@ -83,14 +83,16 @@ padding: auto;
 .p1{
      color: rgb(255, 255, 255);
         text-align: justify;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-        font-weight: 100;
+        font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1px;
+  font-size: 25px;
+  /* font-style: normal; */
         padding: 10%;
        
 }
 .p1 a{
-    color: rgb(140, 165, 246);
+    color: rgb(190, 205, 255);
         text-decoration: none;
 }
 /* From https://css.glass */
